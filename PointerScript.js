@@ -7,7 +7,7 @@ const setClock = () => {
     let mm = day.getMinutes() * 6;
     let ss = day.getSeconds() * 6;
 
-    hr.style.transform = `rotateZ(${(hh)+(mm/2)}deg)`;
+    hr.style.transform = `rotateZ(${(hh)}deg)`;
     mn.style.transform = `rotateZ(${(mm)}deg)`;
     sc.style.transform = `rotateZ(${(ss)}deg)`;
 }
